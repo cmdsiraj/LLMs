@@ -36,3 +36,10 @@ ______________
 > NLTK provides `WordNetLemmatizer` class which is a thin wrapper around the ***wordnet corpus***. This class uses `morphy()` function to the `WordNet CorpusReader` class to find lemma.
 - Since, we are looking for a root word from Wordnet Corpus, `WordNetLemmatizer` takes some time.
 - Examples where Lemmatization is useful: Q&A, chatbots, text summerization etc.,
+
+# StopWords
+- ***stopwords*** are common words that are usually ***filtered out*** before processing text because they carry ***little meaningful information*** for tasks like search, classification, or clustering.
+- **Removing stopwords:**
+  - Reduces noise in text data
+  - Speeds up processing
+  - Improves focus on informative words (e.g., nouns, verbs)
